@@ -11,14 +11,15 @@ int mod=1e9+7;
 #define fast ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 typedef long long int ll;
 
-int main() {
+int main()  {
     fast;
     int t;
     cin>>t;
-    while(t--){
+    while(t--)
+    {
        
         
-        ll n,d;
+      ll n,d;
        
         cin>>n>>d;
         string s= to_string(n);
@@ -30,6 +31,7 @@ int main() {
                 if(s[i]=='0'){
                     s[i]='1';
                     a=i;
+                    
                     break;
                 }
             }
